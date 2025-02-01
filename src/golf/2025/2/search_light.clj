@@ -1,6 +1,6 @@
 (ns golf.2025.2.search-light)
 
-(defn search-light
+(defn shine
   "
   I should print a string that looks like a search light
   pointing at the sky!

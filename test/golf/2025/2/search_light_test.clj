@@ -2,7 +2,6 @@
   (:require [clojure.test :as t]
             [golf.2025.2.search-light :as sut]))
 
-
 (def ^:private search-light-s
   "                         ZYXWVUTSRQPONMLKJIHGFEDCBA
                         YXWVUTSRQPONMLKJIHGFEDCBA
@@ -34,4 +33,4 @@ A")
 (t/deftest search-light-test
   (t/testing "matches"
     (t/is (= search-light-s
-             (with-out-str (sut/search-light))))))
+             (with-out-str (sut/shine))))))
