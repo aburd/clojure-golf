@@ -1,16 +1,14 @@
 Welcome to Tokyo Clojure Golf!
 
-You can open an nrepl like so:
+You can get started by running:
 ```
-clj -M:repl
-```
-
-You can run the tests with:
-```
-clj -M:test:runner
+clj -M:help
 ```
 
-If you prefer, you can watch the tests as you code:
-```
-clj -M:test:watch
-```
+Or you can just start doing the challenges. I recommend completing the challenges in this order:
+
+- golf.2025.2.loading
+- golf.2025.2.search-light
+- golf.2025.2.forest-for-the-keys
+
+If you finish everything, consider helping somebody else or trying more challenges on https://codegolf.stackexchange.com.
